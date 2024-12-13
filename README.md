@@ -1,4 +1,4 @@
-#Car Sales SQL project
+# Car Sales SQL project
 
 https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data 
 This project is about performing data analysis on a set of data to answer some questions.
