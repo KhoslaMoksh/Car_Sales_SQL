@@ -1,4 +1,4 @@
-# Car Sales SQL project
+# Car Sales SQL Project
 
 This project is about performing data analysis on a set of data to answer some questions.
 The dataset (Link mentioned above) is on car sales over several months.
@@ -15,4 +15,4 @@ Q6 = What are the top 5 selling vehicles for each body type?<br>
 Q7 = Which sales are higher than the average for that car's model, and how much higher are they?<br>
 Q8 = What is the impact of car condition on the sale price?<br>
 Q9 = How does the odometer value impact the sale price?<br>
-Q10 = What is the highest, lowest, and average selling price for each brand, and how many different models are sold?<br>
+Q10 = What is each brand's highest, lowest, and average selling price, and how many different models are sold?<br>
