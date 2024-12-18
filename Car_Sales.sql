@@ -2,7 +2,7 @@
 SELECT *
 FROM car_sales;
 
---Question 1 = What are the sales or cars in each state?
+-- Q1 = What are the sales or cars in each state?
 
 SELECT
 state,
@@ -15,7 +15,7 @@ SELECT *
 FROM car_sales
 WHERE state = '3vwd17aj4fm201708';
 
-#furthermore checking how many effected rows due to the input or database error.
+#furthermore checking how many affected rows are due to the input or database error.
 SELECT *
 FROM car_sales
 WHERE LENGTH(state) > 2;
@@ -29,7 +29,7 @@ WHERE body ='Navitgation';
 CREATE TEMPORARY TABLE car_sales_valid AS
 SELECT *
 FROM car_sales
-WHERE body != 'Navitgation';
+WHERE body != 'Navitgation'; # data had spelling mistake of navigation.
 
 #final query for answer of question 1
 SELECT
